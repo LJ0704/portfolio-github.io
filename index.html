@@ -35,7 +35,6 @@
       overflow-x: hidden;
     }
 
-    /* PCB CANVAS BACKGROUND */
     #pcb-canvas {
       position: fixed;
       inset: 0;
@@ -46,7 +45,6 @@
       opacity: 0.55;
     }
 
-    /* NAV */
     nav {
       position: fixed;
       top: 0; left: 0; right: 0;
@@ -85,7 +83,6 @@
 
     .nav-links a:hover { color: var(--accent); }
 
-    /* HERO */
     .hero {
       min-height: 100vh;
       display: flex;
@@ -208,9 +205,7 @@
       z-index: 1;
     }
 
-    .stat {
-      text-align: right;
-    }
+    .stat { text-align: right; }
 
     .stat-num {
       font-family: var(--serif);
@@ -227,16 +222,13 @@
       text-transform: uppercase;
     }
 
-    /* SECTIONS */
     section {
       position: relative;
       z-index: 1;
       padding: 7rem 4rem;
     }
 
-    .section-header {
-      margin-bottom: 4rem;
-    }
+    .section-header { margin-bottom: 4rem; }
 
     .section-num {
       font-family: var(--mono);
@@ -253,16 +245,9 @@
       line-height: 1.1;
     }
 
-    h2 em {
-      font-style: italic;
-      color: var(--accent);
-    }
+    h2 em { font-style: italic; color: var(--accent); }
 
-    /* EXPERIENCE */
-    .exp-grid {
-      display: grid;
-      gap: 2px;
-    }
+    .exp-grid { display: grid; gap: 2px; }
 
     .exp-item {
       background: var(--surface);
@@ -296,11 +281,7 @@
       flex-wrap: wrap;
     }
 
-    .exp-company {
-      font-family: var(--serif);
-      font-size: 1.5rem;
-      font-weight: 400;
-    }
+    .exp-company { font-family: var(--serif); font-size: 1.5rem; font-weight: 400; }
 
     .exp-date {
       font-family: var(--mono);
@@ -343,13 +324,8 @@
       font-size: 0.8rem;
     }
 
-    /* HIGHLIGHT NUMBERS */
-    .exp-bullets li strong {
-      color: var(--accent);
-      font-weight: 500;
-    }
+    .exp-bullets li strong { color: var(--accent); font-weight: 500; }
 
-    /* SKILLS */
     .skills-section { background: var(--bg2); }
 
     .skills-grid {
@@ -378,11 +354,7 @@
       border-bottom: 1px solid var(--border);
     }
 
-    .skill-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
+    .skill-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 
     .tag {
       font-family: var(--mono);
@@ -394,12 +366,8 @@
       transition: all 0.2s;
     }
 
-    .tag:hover {
-      border-color: var(--accent);
-      color: var(--accent);
-    }
+    .tag:hover { border-color: var(--accent); color: var(--accent); }
 
-    /* PROJECTS */
     .projects-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -452,13 +420,8 @@
       margin-bottom: 1.25rem;
     }
 
-    .project-desc {
-      font-size: 0.88rem;
-      color: #8a9bb0;
-      line-height: 1.7;
-    }
+    .project-desc { font-size: 0.88rem; color: #8a9bb0; line-height: 1.7; }
 
-    /* PROJECT MEDIA */
     .project-media {
       width: 100%;
       aspect-ratio: 16/9;
@@ -484,11 +447,8 @@
       display: block;
     }
 
-    .project-media video {
-      background: #000;
-    }
+    .project-media video { background: #000; }
 
-    /* video play overlay */
     .project-media .play-overlay {
       position: absolute;
       inset: 0;
@@ -521,7 +481,6 @@
       margin-left: 4px;
     }
 
-    /* Placeholder (shown when no media yet) */
     .media-placeholder {
       display: flex;
       flex-direction: column;
@@ -545,7 +504,6 @@
       text-align: center;
     }
 
-    /* Lightbox */
     .lightbox {
       position: fixed;
       inset: 0;
@@ -589,7 +547,6 @@
 
     .lightbox-close:hover { color: var(--accent); }
 
-    /* EDUCATION */
     .edu-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
@@ -611,12 +568,7 @@
       margin-bottom: 1rem;
     }
 
-    .edu-school {
-      font-family: var(--serif);
-      font-size: 1.4rem;
-      font-weight: 400;
-      margin-bottom: 0.35rem;
-    }
+    .edu-school { font-family: var(--serif); font-size: 1.4rem; font-weight: 400; margin-bottom: 0.35rem; }
 
     .edu-degree {
       font-family: var(--mono);
@@ -636,21 +588,11 @@
       letter-spacing: 0.08em;
     }
 
-    .edu-courses {
-      margin-top: 1.25rem;
-      font-size: 0.82rem;
-      color: #7a8a9a;
-      line-height: 1.7;
-    }
+    .edu-courses { margin-top: 1.25rem; font-size: 0.82rem; color: #7a8a9a; line-height: 1.7; }
 
-    /* AWARDS */
     .awards-section { background: var(--bg2); }
 
-    .awards-list {
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-    }
+    .awards-list { display: flex; flex-direction: column; gap: 1.5rem; }
 
     .award-item {
       display: grid;
@@ -665,29 +607,13 @@
 
     .award-item:hover { border-color: rgba(255,107,53,0.5); }
 
-    .award-icon {
-      font-family: var(--serif);
-      font-size: 1.8rem;
-      color: var(--accent3);
-      line-height: 1;
-    }
+    .award-icon { font-family: var(--serif); font-size: 1.8rem; color: var(--accent3); line-height: 1; }
 
-    .award-name {
-      font-family: var(--sans);
-      font-size: 1rem;
-      font-weight: 500;
-      margin-bottom: 0.35rem;
-    }
+    .award-name { font-family: var(--sans); font-size: 1rem; font-weight: 500; margin-bottom: 0.35rem; }
 
-    .award-desc {
-      font-size: 0.85rem;
-      color: var(--muted);
-    }
+    .award-desc { font-size: 0.85rem; color: var(--muted); }
 
-    /* CONTACT */
-    .contact-section {
-      border-top: 1px solid var(--border);
-    }
+    .contact-section { border-top: 1px solid var(--border); }
 
     .contact-grid {
       display: grid;
@@ -696,20 +622,11 @@
       align-items: center;
     }
 
-    .contact-intro {
-      font-family: var(--serif);
-      font-size: clamp(2rem, 4vw, 3rem);
-      font-weight: 400;
-      line-height: 1.2;
-    }
+    .contact-intro { font-family: var(--serif); font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; line-height: 1.2; }
 
     .contact-intro em { font-style: italic; color: var(--accent); }
 
-    .contact-links {
-      display: flex;
-      flex-direction: column;
-      gap: 1.25rem;
-    }
+    .contact-links { display: flex; flex-direction: column; gap: 1.25rem; }
 
     .contact-link {
       display: flex;
@@ -722,10 +639,7 @@
       transition: all 0.25s;
     }
 
-    .contact-link:hover {
-      border-color: var(--accent);
-      background: rgba(0,229,176,0.04);
-    }
+    .contact-link:hover { border-color: var(--accent); background: rgba(0,229,176,0.04); }
 
     .contact-link-icon {
       font-family: var(--mono);
@@ -735,12 +649,8 @@
       min-width: 3rem;
     }
 
-    .contact-link-text {
-      font-size: 0.9rem;
-      color: var(--text);
-    }
+    .contact-link-text { font-size: 0.9rem; color: var(--text); }
 
-    /* FOOTER */
     footer {
       position: relative;
       z-index: 1;
@@ -751,34 +661,23 @@
       align-items: center;
     }
 
-    footer p {
-      font-family: var(--mono);
-      font-size: 0.65rem;
-      color: var(--muted);
-      letter-spacing: 0.08em;
-    }
+    footer p { font-family: var(--mono); font-size: 0.65rem; color: var(--muted); letter-spacing: 0.08em; }
 
-    /* SCROLLBAR */
     ::-webkit-scrollbar { width: 4px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: var(--accent); }
 
-    /* ANIMATIONS */
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(30px); }
       to { opacity: 1; transform: translateY(0); }
     }
 
-    .hero-content > * {
-      animation: fadeUp 0.7s ease both;
-    }
-
+    .hero-content > * { animation: fadeUp 0.7s ease both; }
     .hero-content > *:nth-child(1) { animation-delay: 0.1s; }
     .hero-content > *:nth-child(2) { animation-delay: 0.25s; }
     .hero-content > *:nth-child(3) { animation-delay: 0.4s; }
     .hero-content > *:nth-child(4) { animation-delay: 0.55s; }
 
-    /* CURSOR DOT */
     .cursor {
       display: inline-block;
       width: 0.5em;
@@ -791,7 +690,6 @@
 
     @keyframes blink { 50% { opacity: 0; } }
 
-    /* DIVIDER */
     .divider {
       height: 1px;
       background: linear-gradient(90deg, transparent, var(--accent), transparent);
@@ -799,7 +697,6 @@
       margin: 0;
     }
 
-    /* RESPONSIVE */
     @media (max-width: 768px) {
       nav { padding: 1rem 1.5rem; }
       .nav-links { display: none; }
@@ -815,10 +712,8 @@
 </head>
 <body>
 
-  <!-- PCB BACKGROUND CANVAS -->
   <canvas id="pcb-canvas"></canvas>
 
-  <!-- NAV -->
   <nav>
     <div class="nav-logo">LJ // EMBEDDED.ENG</div>
     <ul class="nav-links">
@@ -830,7 +725,6 @@
     </ul>
   </nav>
 
-  <!-- HERO -->
   <header class="hero">
     <div class="hero-bg-text">LIKHITA</div>
     <div class="hero-content">
@@ -858,14 +752,12 @@
 
   <div class="divider"></div>
 
-  <!-- EXPERIENCE -->
   <section id="experience">
     <div class="section-header">
       <div class="section-num">01 — EXPERIENCE</div>
       <h2>Where I've <em>Worked</em></h2>
     </div>
     <div class="exp-grid">
-
       <div class="exp-item">
         <div class="exp-header">
           <div class="exp-company">Honeywell Technology Solutions</div>
@@ -882,13 +774,11 @@
           <li>Trained newcomers on board bring-up procedures for Intel i7 Gen 11 during early development stage.</li>
         </ul>
       </div>
-
     </div>
   </section>
 
   <div class="divider"></div>
 
-  <!-- SKILLS -->
   <section id="skills" class="skills-section">
     <div class="section-header">
       <div class="section-num">02 — TECHNICAL SKILLS</div>
@@ -905,7 +795,7 @@
         </div>
       </div>
       <div class="skill-cat">
-        <div class="skill-cat-title">// Microcontrollers & Processors</div>
+        <div class="skill-cat-title">// Microcontrollers &amp; Processors</div>
         <div class="skill-tags">
           <span class="tag">Intel Core i7-1185GRE</span>
           <span class="tag">8051</span>
@@ -916,7 +806,7 @@
         </div>
       </div>
       <div class="skill-cat">
-        <div class="skill-cat-title">// Development & Debugging Tools</div>
+        <div class="skill-cat-title">// Development &amp; Debugging Tools</div>
         <div class="skill-tags">
           <span class="tag">Intel System Debugger</span>
           <span class="tag">Intel SVT CCA</span>
@@ -948,7 +838,7 @@
         </div>
       </div>
       <div class="skill-cat">
-        <div class="skill-cat-title">// Simulation & Design</div>
+        <div class="skill-cat-title">// Simulation &amp; Design</div>
         <div class="skill-tags">
           <span class="tag">MATLAB / Simulink</span>
           <span class="tag">LTspice</span>
@@ -963,7 +853,6 @@
 
   <div class="divider"></div>
 
-  <!-- PROJECTS -->
   <section id="projects">
     <div class="section-header">
       <div class="section-num">03 — PROJECTS</div>
@@ -974,29 +863,22 @@
       <!-- PROJECT 1 -->
       <div class="project-card">
         <div class="project-media" id="media-8051" onclick="openLightbox('media-8051')">
-          <!-- TO ADD: replace the placeholder div below with:
-               Image → <img src="your-image.jpg" alt="8051 Board">
-               Video → <video src="your-video.mp4" muted loop></video>
-               Then remove the .media-placeholder div entirely. -->
-              <img src="img/8051.jpg" alt="8051 Board">
+          <img src="img/8051.jpg" alt="8051 Board">
         </div>
         <div class="project-date">AUG 2025</div>
         <div class="project-name">8051 Board Bring-Up</div>
         <div class="project-hw">AT89C51RC2 · KiCad · UART · SPI · I2C</div>
         <p class="project-desc">Designed a custom 8051 PCB with power regulation, oscillator, external NVSRAM and reset system. Implemented interrupt-driven circular FIFO buffer, bit-banged I2C for 24LC16B EEPROM, and SPI with MCP4802 DAC. Verified timing via oscilloscope and logic analyzer.</p>
-        <a href="https://github.com/LJ0704/TBD" 
-     target="_blank" class="btn btn-outline"
-     style="display:inline-flex; margin-top:1rem; font-size:0.7rem; padding:0.5rem 1.2rem;">
-    ⌥ View Code on GitHub
-  </a>
+        <a href="https://github.com/LJ0704/TBD" target="_blank" class="btn btn-outline"
+           style="display:inline-flex; margin-top:1rem; font-size:0.7rem; padding:0.5rem 1.2rem;">
+          ⌥ View Code on GitHub
+        </a>
       </div>
 
       <!-- PROJECT 2 -->
       <div class="project-card">
         <div class="project-media" id="media-dice" onclick="openLightbox('media-dice')">
-          <!-- TO ADD: replace placeholder with <img> or <video> tag -->
-          <img src="img/Dice_Roller.png" alt="8051 Board">
-          <img src="img/Dice_Roller_In_action.png" alt="8051 Board">
+          <img src="img/Dice_Roller.png" alt="Dice Roller">
         </div>
         <div class="project-date">SEP 2025</div>
         <div class="project-name">Dice Roller — D&amp;D</div>
@@ -1007,35 +889,60 @@
       <!-- PROJECT 3 -->
       <div class="project-card">
         <div class="project-media" id="media-gesture" onclick="openLightbox('media-gesture')">
-          <!-- TO ADD: replace placeholder with <img> or <video> tag -->
           <video src="img/Gesture_PPT_Controller_1.mp4" loop autoplay muted playsinline></video>
         </div>
         <div class="project-date">OCT 2025</div>
         <div class="project-name">Gesture-Controlled Slides</div>
         <div class="project-hw">STM32F091RC · SEN-13162 · JDY-31 Bluetooth</div>
         <p class="project-desc">Interfaced SEN-13162 gesture sensor via I2C to detect ZX-axis motion for touchless slide control. Established wireless PC communication using JDY-31 Bluetooth module on STM32.</p>
-          <a href="https://github.com/LJ0704/Gesture-Controlled-PPT" 
-     target="_blank" class="btn btn-outline"
-     style="display:inline-flex; margin-top:1rem; font-size:0.7rem; padding:0.5rem 1.2rem;">
-    ⌥ View Code on GitHub
-  </a>
+        <a href="https://github.com/LJ0704/Gesture-Controlled-PPT" target="_blank" class="btn btn-outline"
+           style="display:inline-flex; margin-top:1rem; font-size:0.7rem; padding:0.5rem 1.2rem;">
+          ⌥ View Code on GitHub
+        </a>
       </div>
 
       <!-- PROJECT 4 -->
       <div class="project-card">
         <div class="project-media" id="media-robots" onclick="openLightbox('media-robots')">
-          <!-- TO ADD: replace placeholder with <img> or <video> tag -->
           <video src="img/FlipkartProject.mp4" loop autoplay muted playsinline></video>
         </div>
         <div class="project-date">JUL 2021</div>
         <div class="project-name">Autonomous Warehouse Robots</div>
         <div class="project-hw">OpenCV · Arduino UNO · NRF24L01 · L298N</div>
         <p class="project-desc">Built a centralized monitoring system for robot motion detection and path correction with <strong style="color:var(--accent)">80% accuracy</strong>. Used PWM-based motor control from vision data. Reduced system cost by <strong style="color:var(--accent)">50%</strong> with Arduino UNO and NRF24L01 transceiver. (Flipkart Grid 3.0)</p>
-        <a href="https://drive.google.com/drive/folders/0BzC2P6zj5ZemfjRiODYtS01xWkxEZ0t0eGkxSmVjVGJfckc3RHJFR0lRTEFKdmo2cGMzdXM?resourcekey=0-vJRysUI2vM59VQJnJMV4pg&usp=sharing" 
-     target="_blank" class="btn btn-outline"
-     style="display:inline-flex; margin-top:1rem; font-size:0.7rem; padding:0.5rem 1.2rem;">
-    ⌥ View Code and Results on Google Drive
-  </a>
+        <a href="https://drive.google.com/drive/folders/0BzC2P6zj5ZemfjRiODYtS01xWkxEZ0t0eGkxSmVjVGJfckc3RHJFR0lRTEFKdmo2cGMzdXM?resourcekey=0-vJRysUI2vM59VQJnJMV4pg&usp=sharing"
+           target="_blank" class="btn btn-outline"
+           style="display:inline-flex; margin-top:1rem; font-size:0.7rem; padding:0.5rem 1.2rem;">
+          ⌥ View Code and Results on Google Drive
+        </a>
+      </div>
+
+      <!-- PROJECT 5 -->
+      <div class="project-card">
+        <div class="project-media" id="media-fio" onclick="openLightbox('media-fio')">
+          <img src="img/aesd_pic.png" alt="Custom FIO Tool">
+        </div>
+        <div class="project-date">MAR 2026</div>
+        <div class="project-name">Custom FIO Tool for SSD Testing</div>
+        <div class="project-hw">NVMe Driver · SSD · User Application · TCP/IP</div>
+        <p class="project-desc">Implemented a custom FIO benchmarking tool to evaluate NVMe SSD performance (sequential/random I/O, throughput). Built a TCP/IP client-server system to execute user-defined NVMe commands for remote SSD testing.</p>
+      </div>
+
+      <!-- PROJECT 6 -->
+      <div class="project-card">
+        <div class="project-media" id="media-quad" onclick="openLightbox('media-quad')">
+          <!-- TO ADD: replace the placeholder div below with:
+               <video src="img/quadcopter.mp4" loop autoplay muted playsinline></video>
+               Then remove the .media-placeholder div entirely. -->
+          <div class="media-placeholder">
+            <div class="media-placeholder-icon">▶</div>
+            <div class="media-placeholder-text">Drop video here<br>quadcopter_demo.mp4</div>
+          </div>
+        </div>
+        <div class="project-date">MAR 2026</div>
+        <div class="project-name">Quadcopter Flight Controller</div>
+        <div class="project-hw">STEVAL-FCU001V2 · BlueNRG-M0 · FreeRTOS · BLE</div>
+        <p class="project-desc">Designed a BLE interface with the drone to send commands and receive telemetry for display on a Python GUI. Implemented Rate Monotonic scheduling and determined deadlines for each service required for safe drone operation.</p>
       </div>
 
     </div>
@@ -1043,36 +950,31 @@
 
   <div class="divider"></div>
 
-  <!-- EDUCATION -->
   <section id="education">
     <div class="section-header">
       <div class="section-num">04 — EDUCATION</div>
       <h2>Academic <em>Background</em></h2>
     </div>
     <div class="edu-grid">
-
       <div class="edu-card">
         <div class="edu-years">2025 – 2027</div>
         <div class="edu-school">University of Colorado Boulder</div>
-        <div class="edu-degree">M.S. ELECTRICAL & COMPUTER ENGINEERING</div>
+        <div class="edu-degree">M.S. ELECTRICAL &amp; COMPUTER ENGINEERING</div>
         <span class="edu-gpa">GPA: 3.85 / 4.0</span>
         <p class="edu-courses">Embedded Systems Design · Principles of Embedded Software · Real-Time Embedded Systems · Advanced Embedded Linux Development</p>
       </div>
-
       <div class="edu-card">
         <div class="edu-years">2019 – 2023</div>
         <div class="edu-school">NIT Karnataka</div>
-        <div class="edu-degree">B.TECH ELECTRICAL & ELECTRONICS ENGINEERING</div>
+        <div class="edu-degree">B.TECH ELECTRICAL &amp; ELECTRONICS ENGINEERING</div>
         <span class="edu-gpa">GPA: 7.7 / 10</span>
-        <p class="edu-courses">Major in Electrical & Electronics Engineering</p>
+        <p class="edu-courses">Major in Electrical &amp; Electronics Engineering</p>
       </div>
-
     </div>
   </section>
 
   <div class="divider"></div>
 
-  <!-- AWARDS -->
   <section id="awards" class="awards-section">
     <div class="section-header">
       <div class="section-num">05 — AWARDS</div>
@@ -1098,7 +1000,6 @@
 
   <div class="divider"></div>
 
-  <!-- CONTACT -->
   <section id="contact" class="contact-section">
     <div class="section-header">
       <div class="section-num">06 — CONTACT</div>
@@ -1129,31 +1030,26 @@
     <p>EMBEDDED SYSTEMS ENGINEER · BOULDER, CO</p>
   </footer>
 
-  <!-- PCB BACKGROUND ENGINE -->
   <script>
   (function() {
-    const canvas = document.getElementById('pcb-canvas');
-    const ctx = canvas.getContext('2d');
+    const realCanvas = document.getElementById('pcb-canvas');
+    const ctx = realCanvas.getContext('2d');
 
     const C = { trace: 'rgba(0,229,176,', via: '#00e5b0', chip: 'rgba(0,229,176,', pad: 'rgba(0,229,176,', pulse: 'rgba(0,229,176,' };
 
     let W, H, nodes = [], traces = [], chips = [], pulses = [];
 
     function resize() {
-      W = canvas.width = window.innerWidth;
-      H = canvas.height = window.innerHeight;
+      W = realCanvas.width = window.innerWidth;
+      H = realCanvas.height = window.innerHeight;
       build();
     }
 
-    /* ── build the PCB layout ── */
     function build() {
       nodes = []; traces = []; chips = []; pulses = [];
-
       const GRID = 60;
       const cols = Math.ceil(W / GRID) + 1;
       const rows = Math.ceil(H / GRID) + 1;
-
-      // Grid nodes (vias / pads)
       for (let r = 0; r < rows; r++) {
         for (let c = 0; c < cols; c++) {
           if (Math.random() < 0.28) {
@@ -1161,44 +1057,30 @@
           }
         }
       }
-
-      // Connect nearby nodes with L-shaped traces
       for (let i = 0; i < nodes.length; i++) {
         for (let j = i + 1; j < nodes.length; j++) {
           const a = nodes[i], b = nodes[j];
           const dx = Math.abs(a.x - b.x), dy = Math.abs(a.y - b.y);
           if (dx < GRID * 2.2 && dy < GRID * 2.2 && Math.random() < 0.18) {
-            // L-shaped: go horizontal then vertical
-            const corner = Math.random() < 0.5
-              ? { x: b.x, y: a.y }
-              : { x: a.x, y: b.y };
+            const corner = Math.random() < 0.5 ? { x: b.x, y: a.y } : { x: a.x, y: b.y };
             traces.push({ a, b, corner, progress: 0, drawn: true });
           }
         }
       }
-
-      // Chip packages (ICs) – rectangles with pin stubs
       const chipDefs = [
-        { w: 100, h: 60, pins: 8 },
-        { w: 80,  h: 80, pins: 10 },
-        { w: 130, h: 50, pins: 12 },
-        { w: 70,  h: 100, pins: 14 },
-        { w: 90,  h: 70, pins: 8 },
-        { w: 60,  h: 60, pins: 6 },
+        { w: 100, h: 60, pins: 8 }, { w: 80, h: 80, pins: 10 },
+        { w: 130, h: 50, pins: 12 }, { w: 70, h: 100, pins: 14 },
+        { w: 90, h: 70, pins: 8 }, { w: 60, h: 60, pins: 6 },
       ];
-
       const numChips = Math.floor(W * H / 180000) + 4;
       for (let i = 0; i < numChips; i++) {
         const def = chipDefs[Math.floor(Math.random() * chipDefs.length)];
         chips.push({
-          x: 80 + Math.random() * (W - 200),
-          y: 80 + Math.random() * (H - 200),
+          x: 80 + Math.random() * (W - 200), y: 80 + Math.random() * (H - 200),
           w: def.w, h: def.h, pins: def.pins,
           label: ['STM32','8051','ATmega','ESP32','FPGA','MCU','UEFI','PCIe','SPI','I2C','UART','DDR4'][Math.floor(Math.random()*12)]
         });
       }
-
-      // Seed initial pulses
       for (let i = 0; i < 12; i++) spawnPulse();
     }
 
@@ -1208,7 +1090,6 @@
       pulses.push({ trace: t, t: Math.random(), speed: 0.003 + Math.random() * 0.005, forward: Math.random() < 0.5 });
     }
 
-    /* ── draw functions ── */
     function drawTrace(t) {
       ctx.beginPath();
       ctx.moveTo(t.a.x, t.a.y);
@@ -1223,77 +1104,41 @@
       ctx.beginPath();
       ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
       if (n.r > 3) {
-        // via ring
-        ctx.strokeStyle = C.via;
-        ctx.lineWidth = 1;
-        ctx.stroke();
-        ctx.beginPath();
-        ctx.arc(n.x, n.y, n.r * 0.45, 0, Math.PI * 2);
-        ctx.fillStyle = C.via;
-        ctx.fill();
+        ctx.strokeStyle = C.via; ctx.lineWidth = 1; ctx.stroke();
+        ctx.beginPath(); ctx.arc(n.x, n.y, n.r * 0.45, 0, Math.PI * 2);
+        ctx.fillStyle = C.via; ctx.fill();
       } else {
-        ctx.fillStyle = 'rgba(0,229,176,0.4)';
-        ctx.fill();
+        ctx.fillStyle = 'rgba(0,229,176,0.4)'; ctx.fill();
       }
     }
 
     function drawChip(c) {
       const x = c.x - c.w / 2, y = c.y - c.h / 2;
-      // body
-      ctx.strokeStyle = 'rgba(0,229,176,0.2)';
-      ctx.lineWidth = 1;
+      ctx.strokeStyle = 'rgba(0,229,176,0.2)'; ctx.lineWidth = 1;
       ctx.fillStyle = 'rgba(0,229,176,0.03)';
-      ctx.beginPath();
-      ctx.rect(x, y, c.w, c.h);
-      ctx.fill();
-      ctx.stroke();
-
-      // notch
-      ctx.beginPath();
-      ctx.arc(x + 12, y, 5, 0, Math.PI);
-      ctx.strokeStyle = 'rgba(0,229,176,0.3)';
-      ctx.lineWidth = 0.8;
-      ctx.stroke();
-
-      // pin stubs — top & bottom
+      ctx.beginPath(); ctx.rect(x, y, c.w, c.h); ctx.fill(); ctx.stroke();
+      ctx.beginPath(); ctx.arc(x + 12, y, 5, 0, Math.PI);
+      ctx.strokeStyle = 'rgba(0,229,176,0.3)'; ctx.lineWidth = 0.8; ctx.stroke();
       const pinSpacing = c.w / (c.pins / 2 + 1);
       for (let i = 1; i <= c.pins / 2; i++) {
         const px = x + pinSpacing * i;
-        ctx.beginPath();
-        ctx.moveTo(px, y);
-        ctx.lineTo(px, y - 10);
-        ctx.strokeStyle = 'rgba(0,229,176,0.25)';
-        ctx.lineWidth = 1.5;
-        ctx.stroke();
-        ctx.beginPath();
-        ctx.arc(px, y - 10, 2, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(0,229,176,0.35)';
-        ctx.fill();
-
-        ctx.beginPath();
-        ctx.moveTo(px, y + c.h);
-        ctx.lineTo(px, y + c.h + 10);
-        ctx.strokeStyle = 'rgba(0,229,176,0.25)';
-        ctx.lineWidth = 1.5;
-        ctx.stroke();
-        ctx.beginPath();
-        ctx.arc(px, y + c.h + 10, 2, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(0,229,176,0.35)';
-        ctx.fill();
+        ctx.beginPath(); ctx.moveTo(px, y); ctx.lineTo(px, y - 10);
+        ctx.strokeStyle = 'rgba(0,229,176,0.25)'; ctx.lineWidth = 1.5; ctx.stroke();
+        ctx.beginPath(); ctx.arc(px, y - 10, 2, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(0,229,176,0.35)'; ctx.fill();
+        ctx.beginPath(); ctx.moveTo(px, y + c.h); ctx.lineTo(px, y + c.h + 10);
+        ctx.strokeStyle = 'rgba(0,229,176,0.25)'; ctx.lineWidth = 1.5; ctx.stroke();
+        ctx.beginPath(); ctx.arc(px, y + c.h + 10, 2, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(0,229,176,0.35)'; ctx.fill();
       }
-
-      // label
       ctx.font = `${Math.min(11, c.w / 7)}px 'Share Tech Mono', monospace`;
-      ctx.fillStyle = 'rgba(0,229,176,0.5)';
-      ctx.textAlign = 'center';
-      ctx.textBaseline = 'middle';
+      ctx.fillStyle = 'rgba(0,229,176,0.5)'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
       ctx.fillText(c.label, c.x, c.y);
     }
 
     function getPulsePos(p) {
       const t_val = p.forward ? p.t : 1 - p.t;
       const a = p.trace.a, b = p.trace.b, corner = p.trace.corner;
-      // segment lengths
       const d1 = Math.hypot(corner.x - a.x, corner.y - a.y);
       const d2 = Math.hypot(b.x - corner.x, b.y - corner.y);
       const total = d1 + d2;
@@ -1309,47 +1154,30 @@
 
     function drawPulse(p) {
       const pos = getPulsePos(p);
-      // glow
       const grd = ctx.createRadialGradient(pos.x, pos.y, 0, pos.x, pos.y, 8);
       grd.addColorStop(0, 'rgba(0,229,176,0.9)');
       grd.addColorStop(0.4, 'rgba(0,229,176,0.4)');
       grd.addColorStop(1, 'rgba(0,229,176,0)');
-      ctx.beginPath();
-      ctx.arc(pos.x, pos.y, 8, 0, Math.PI * 2);
-      ctx.fillStyle = grd;
-      ctx.fill();
-      // core dot
-      ctx.beginPath();
-      ctx.arc(pos.x, pos.y, 2.5, 0, Math.PI * 2);
-      ctx.fillStyle = '#00e5b0';
-      ctx.fill();
+      ctx.beginPath(); ctx.arc(pos.x, pos.y, 8, 0, Math.PI * 2);
+      ctx.fillStyle = grd; ctx.fill();
+      ctx.beginPath(); ctx.arc(pos.x, pos.y, 2.5, 0, Math.PI * 2);
+      ctx.fillStyle = '#00e5b0'; ctx.fill();
     }
 
-    /* ── animation loop ── */
     function animate() {
       ctx.clearRect(0, 0, W, H);
-
       traces.forEach(drawTrace);
       nodes.forEach(drawNode);
       chips.forEach(drawChip);
-
-      // update & draw pulses
-      pulses.forEach((p, i) => {
+      pulses.forEach((p) => {
         p.t += p.speed;
         if (p.t >= 1) {
-          p.t = 0;
-          p.forward = !p.forward;
-          if (Math.random() < 0.3) {
-            // jump to a random trace
-            p.trace = traces[Math.floor(Math.random() * traces.length)];
-          }
+          p.t = 0; p.forward = !p.forward;
+          if (Math.random() < 0.3) p.trace = traces[Math.floor(Math.random() * traces.length)];
         }
         drawPulse(p);
       });
-
-      // occasionally spawn extra pulses, cap at 20
       if (pulses.length < 20 && Math.random() < 0.02) spawnPulse();
-
       requestAnimationFrame(animate);
     }
 
@@ -1359,7 +1187,6 @@
   })();
   </script>
 
-  <!-- LIGHTBOX -->
   <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
     <div class="lightbox-inner" id="lightbox-inner">
       <button class="lightbox-close" onclick="closeLightbox()">✕ CLOSE</button>
@@ -1371,29 +1198,20 @@
       const mediaEl = document.getElementById(mediaId);
       const img = mediaEl.querySelector('img');
       const video = mediaEl.querySelector('video');
-
-      // Only open lightbox if actual media exists (not placeholder)
       if (!img && !video) return;
-
       const lb = document.getElementById('lightbox');
       const inner = document.getElementById('lightbox-inner');
-
-      // Clear previous content except close button
       const closeBtn = inner.querySelector('.lightbox-close');
       inner.innerHTML = '';
       inner.appendChild(closeBtn);
-
       if (img) {
         const clone = img.cloneNode();
         inner.appendChild(clone);
       } else if (video) {
         const clone = video.cloneNode(true);
-        clone.controls = true;
-        clone.autoplay = true;
-        clone.muted = false;
+        clone.controls = true; clone.autoplay = true; clone.muted = false;
         inner.appendChild(clone);
       }
-
       lb.classList.add('open');
       document.body.style.overflow = 'hidden';
     }
@@ -1403,7 +1221,6 @@
       const lb = document.getElementById('lightbox');
       lb.classList.remove('open');
       document.body.style.overflow = '';
-      // Pause any playing video
       const v = lb.querySelector('video');
       if (v) v.pause();
     }
